@@ -1,0 +1,9 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/index.css';
+import 'bootstrap/dist/js/bootstrap.min.js';
+import 'jquery';
+import 'popper.js/dist/popper';
+import '@fortawesome/fontawesome-free/js/all.min';
+import 'webpack-jquery-ui';
+import 'webpack-jquery-ui/css';
+import 'jquery-ui-touch-punch/jquery.ui.touch-punch';

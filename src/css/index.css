@@ -1,0 +1,90 @@
+/* انشاء خط يفصل رأس الصفحة عن جسم الصفحة */
+.s-navbar {
+    border-bottom: 3px solid #EEF0EA;
+    width: 100%;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+/* تنسيق حجم الشعار */
+.s-navbar .navbar-brand img {
+    width: 50px;
+    height: 50px;
+}
+/* تنسيق روابط التنقل */
+.s-navbar .navbar-nav li a.nav-link {
+    color: #555555;
+    font-size: 14px;
+    padding: 15px;
+}
+/* تنسيق روابط التنقل */
+.s-navbar .navbar-nav li.active a.nav-link {
+    color: #5935be;
+    border-bottom: 1px solid #5935be;
+    font-weight: 700;
+}
+/* تنسيق روابط التنقل */
+.s-navbar .navbar-nav li a.nav-link:hover {
+    color: black;
+}
+/* تنسيق روابط التنقل */
+.s-navbar .navbar-nav li.active:hover a.nav-link {
+    background-color: #e7e7e7;
+}
+
+.carousel-row .col-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+#carousel-s {
+    background-color: #F7F8F3;
+    height: 400px;
+    padding-top: 25px;
+}
+
+#carousel-s .carousel-inner .carousel-item img {
+    position: relative;
+    height: 375px;
+    margin-right: 0px;
+    margin-left: 0px;
+    right: 350px;
+}
+
+#carousel-s .carousel-control-prev,
+#carousel-s .carousel-control-next {
+    color: #5935be;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+@media (max-width: 1199px) {
+
+}
+
+@media (max-width: 992px) {
+    #carousel-s .carousel-inner .carousel-item img {
+        transform: translate(50%, -50%);
+        height: 400px;
+       margin-top: 100px;
+        padding-top: 100px;
+    }
+}
+
+@media (max-width: 767px) {
+    #carousel-s {
+        padding-bottom: 25px;
+    }
+
+    #carousel-s .carousel-item img {
+        height: 100px;
+    }
+}
+
+@media (max-width: 575px) {
+ 
+}

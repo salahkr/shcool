@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>علمني</title>
+    <script type="text/html" src="{require('index.js')}"></script>
+</head>
+
+<body>
+    <!-- القائمة العلوية -->
+    <nav class="navbar s-navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <!-- الشعار -->
+            <a class="navbar-brand" href=".">
+                <img src="images/Logo.png" alt="logo">
+                علمني
+            </a>
+            <!-- نهاية الشعار -->
+
+            <!-- زر اظهار قائمة التنقل في الشاشات الصغيرة والمتوسطة -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- نهاية الزر -->
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <!-- صفحات الموقع -->
+                <ul class="navbar-nav">
+                    <!--الصفحة الرئيسية -->
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#">الصفحة الرئيسية</a>
+                    </li>
+
+
+                    <!-- تسجيل -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">تسجيل</a>
+                    </li>
+
+                    <!-- تسجيل الدخول -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">تسجيل الدخول</a>
+                    </li>
+                </ul>
+                <!-- نهاية صفحات الموقع -->
+            </div>
+        </div>
+    </nav>
+    <!-- نهاية القائمة العلوية -->
+
+    <!-- الشرائح -->
+    <div class="row">
+        <div class="col-12 carousel-row">
+            <div id="carousel-s" class="carousel slide" data-bs-ride="carousel">
+                <!-- التنقل بين الشرائح بإستخدام الخطوط -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel-s" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel-s" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel-s" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <!-- نهاية التنقل بين الشرائح -->
+
+                <!-- الصور -->
+                <div class="carousel-inner">
+                    <!-- الصورة الاولى -->
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="images/carousel-1.jpg" alt=".">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- نهاية الصورة الاولى -->
+
+                    <!-- الصورة الثانية -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="images/carousel-2.jpg" alt=".">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- نهاية الصورة الثانية -->
+
+                    <!-- الصورة الثالثة -->
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <img src="images/carousel-3.jpg" alt=".">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--نهاية الصورة الثالثة -->
+                </div>
+                <!-- نهاية الصور -->
+
+                <!-- سمهي التنقل -->
+                <a class="carousel-control-prev" data-bs-target="#carousel-s" data-bs-slide="prev">
+                    <i class="fas fa-chevron-left fa-3x"></i>
+                </a>
+                <a class="carousel-control-next" data-bs-target="#carousel-s" data-bs-slide="next">
+                    <i class="fas fa-chevron-right fa-3x"></i>
+                </a>
+                <!-- نهاية سهمي التنقل -->
+            </div>
+        </div>
+    </div>
+    <!-- نهاية الشرائح -->
+</body>
+
+</html>
